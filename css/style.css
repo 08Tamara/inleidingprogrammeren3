@@ -1,0 +1,132 @@
+body {
+    background-image: url("../images/boba-store-background-white-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 1em;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img {
+    max-width: 25%;
+    /* display: block; */
+    /* margin: auto; */
+    /* padding: 5em; */
+}
+
+.beker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    max-width: 15%;
+}
+
+.tapioca {
+    /* float: right; */
+    max-width: 10%;
+    display: flex;
+    justify-content: right;
+    margin: 2em;
+    /* margin-top: -500px; */
+}
+
+.pink-popping {
+    /* margin-right: 100px; */
+    max-width: 10%;
+    display: flex;
+    justify-content: right;
+    margin: 2em;
+    /* margin-top: -495px; */
+}
+
+.orange-popping {
+    /* margin-right: 100px; */
+    max-width: 10%;
+    display: flex;
+    justify-content: right;
+    margin: 2em;
+    /* margin-top: -150px; */
+}
+
+.yellow-popping {
+    /* float: right; */
+    max-width: 10%;
+    display: flex;
+    justify-content: right;
+    margin: 2em;
+    /* margin-top: -415px; */
+}
+
+.pink-flavor {
+    /* margin-left: -100px; */
+    max-width: 20%;
+    display: flex;
+    justify-content: right;
+    /* margin-top: -330px; */
+}
+
+.orange-flavor {
+    /* margin-left: -100px; */
+    max-width: 20%;
+    display: flex;
+    justify-content: right;
+    /* margin-top: -250px; */
+}
+
+.yellow-flavor {
+    /* margin-left: -25px; */
+    max-width: 20%;
+    display: flex;
+    justify-content: right;
+    /* margin-top: -393px; */
+}
+
+.brown-flavor {
+    /* margin-left: -25px; */
+    max-width: 20%;
+    display: flex;
+    justify-content: right;
+    /* margin-top: -250px; */
+}
+
+.flavors-h2 {
+    /* margin-top: -330px; */
+    position: relative;
+    /* left: 85px; */
+}
+
+.poppings-h2 {
+    /* margin-top: -48px; */
+    position: relative;
+    /* right: -1300px; */
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 0.2em;
+}
+
+li {
+    display: flex;
+}
+
+a {
+    background-color: #ffff;
+    padding: 1em 2em;
+    border-radius: 5em;
+    text-decoration: none;
+    position: relative;
+    bottom: 2em;
+}
